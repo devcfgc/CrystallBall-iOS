@@ -27,5 +27,6 @@
 
 - (IBAction)buttonPressed {
     self.predictionLabel.text = @"YES";
+    self.predictionLabel.textColor = [UIColor colorWithRed:231.0/255.0f green:76.0/255.0f blue:60.0/255.0f  alpha:1.0];
 }
 @end
