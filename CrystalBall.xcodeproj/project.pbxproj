@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D115FFF21921556600C4C2EE /* DCCrystalBall.m in Sources */ = {isa = PBXBuildFile; fileRef = D115FFF11921556600C4C2EE /* DCCrystalBall.m */; };
+		D156F77E1928FA83002F989E /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D156F77D1928FA83002F989E /* crystal_ball.mp3 */; };
+		D156F7801928FAD4002F989E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D156F77F1928FAD4002F989E /* AudioToolbox.framework */; };
 		D16C6395191FCB1E00501117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16C6394191FCB1E00501117 /* Foundation.framework */; };
 		D16C6397191FCB1E00501117 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16C6396191FCB1E00501117 /* CoreGraphics.framework */; };
 		D16C6399191FCB1E00501117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16C6398191FCB1E00501117 /* UIKit.framework */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D115FFF01921556600C4C2EE /* DCCrystalBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCrystalBall.h; sourceTree = "<group>"; };
+		D115FFF11921556600C4C2EE /* DCCrystalBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCrystalBall.m; sourceTree = "<group>"; };
+		D156F77D1928FA83002F989E /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crystal_ball.mp3; sourceTree = "<group>"; };
+		D156F77F1928FAD4002F989E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D16C6391191FCB1E00501117 /* CrystalBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16C6394191FCB1E00501117 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D16C6396191FCB1E00501117 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D156F7801928FAD4002F989E /* AudioToolbox.framework in Frameworks */,
 				D16C6397191FCB1E00501117 /* CoreGraphics.framework in Frameworks */,
 				D16C6399191FCB1E00501117 /* UIKit.framework in Frameworks */,
 				D16C6395191FCB1E00501117 /* Foundation.framework in Frameworks */,
@@ -101,6 +109,7 @@
 		D16C6393191FCB1E00501117 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D156F77F1928FAD4002F989E /* AudioToolbox.framework */,
 				D16C6394191FCB1E00501117 /* Foundation.framework */,
 				D16C6396191FCB1E00501117 /* CoreGraphics.framework */,
 				D16C6398191FCB1E00501117 /* UIKit.framework */,
@@ -116,7 +125,10 @@
 				D16C63A9191FCB1E00501117 /* DCViewController.h */,
 				D16C63AA191FCB1E00501117 /* DCViewController.m */,
 				D16C63AC191FCB1E00501117 /* Images.xcassets */,
+				D156F77D1928FA83002F989E /* crystal_ball.mp3 */,
 				D16C639B191FCB1E00501117 /* Supporting Files */,
+				D115FFF01921556600C4C2EE /* DCCrystalBall.h */,
+				D115FFF11921556600C4C2EE /* DCCrystalBall.m */,
 			);
 			path = CrystalBall;
 			sourceTree = "<group>";
@@ -231,6 +243,7 @@
 			files = (
 				D16C63AD191FCB1E00501117 /* Images.xcassets in Resources */,
 				D16C639F191FCB1E00501117 /* InfoPlist.strings in Resources */,
+				D156F77E1928FA83002F989E /* crystal_ball.mp3 in Resources */,
 				D16C63A8191FCB1E00501117 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +265,7 @@
 			files = (
 				D16C63A1191FCB1E00501117 /* main.m in Sources */,
 				D16C63AB191FCB1E00501117 /* DCViewController.m in Sources */,
+				D115FFF21921556600C4C2EE /* DCCrystalBall.m in Sources */,
 				D16C63A5191FCB1E00501117 /* DCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
